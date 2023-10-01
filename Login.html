@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.style.css">
+    <title>Login</title>
+</head>
+
+<header>
+    <a href="#"><img src="./imagens/adega-icon.png" alt="" class="logo"></a>
+    <nav class="navegation">
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./vinho.html">Vinhos</a></li>
+            <li><a href="./cachaça.html">Cachaça</a></li>
+            <li><a href="./gin.html">Gin</a></li>
+            <li><a href="./Cervejas.html">Cervejas</a></li>
+            <li><a href="./vodka.html">Vodka</a></li>
+            <li><a href="./whisky.html">Whisky</a></li>
+        </ul>
+    </nav>
+    <div class="cart">
+        <a href="./carrinho.html"><img src="./imagens/carrinho.png" alt="Carrinho de Compras"> Carrinho</a>
+        <a href="./Login.html"><img src="./imagens/login.png" alt="Minha Conta">Minha Conta</a>
+    </div>
+</header>
+<body>
+    <main id="container">
+   <form action="" id="login_form">
+    <div id="form_header">
+        <h1>Minha Conta</h1>
+    </div>
+    <div id="social_media">
+        <a href="#"><img src="./imagens/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="./imagens/google.png" alt="Google"></a>
+    </div>
+    <form action="Login\login.java" method="post">
+    <div id="inputs">
+        <div class="input-box">
+            <label for="Nome">
+                <div class="input-field">
+                    <i class="fa-regular fa-user"></i>
+                <input type="text" id="Nome" name="Nome">
+
+                </div>
+            </label>
+        </div>
+        <div class="input-box">
+            <label for="E-mail">
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="E-mail" name="E-mail">
+                </div>
+            </label>
+        </div>
+        <div class="input-box">
+            <label for="Senha">
+                <div class="input-field">
+                    <i class="fa-solid fa-key"></i>
+                <input type="password" id="Senha" name="Senha">
+                </div>
+            </label>
+            <div id="Esqueceu_Senha">
+                <a href="#">
+                    Esqueceu sua senha?
+                </a>
+            </div>
+        </div>
+    </div>
+    <button type="submit" id="login_button">Login</button>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2023 A Adega. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,173 @@
+:root{
+    --color1: #C5A670;
+    --color2:#000405;
+    --color3:#870540;
+    --color4: #6E002F;
+    --color5: #EFE2CA;
+
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+.navegation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+.navegation ul li {
+    margin-right: 20px;
+  }
+  
+.navegation ul li a {
+    text-decoration: none;
+    color: #C5A671;
+    font-weight: bold;
+  }    
+
+  /* carrinho e longin*/
+  #cart{
+    text-decoration: none;
+    color: #C5A671;
+    font-weight: bold;
+  
+  }
+  .cart img {
+    margin-top: 4%;
+  }
+  .cart a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #C5A671;
+  }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+#container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: var(--color1);
+}
+
+#login_form {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: var(--color5);
+    padding: 50px 200px;
+    border-radius: 8px;
+    gap: 50px;
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.336);
+}
+
+#form_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form_header h1 {
+    font-size: 30px;
+}
+
+#social_media {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social_media img {
+    width: 45px;
+}
+
+#social_media img:hover {
+    transform: scale(1.2);
+}
+/* Inputs */
+#inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-box>label {
+    font-size: 14px;
+    color: var(--color1);
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    border-bottom: 1px solid var(--color1);
+    cursor: text;
+}
+
+.input-field i {
+    font-size: 18px;
+    cursor: text;
+    color: var(--color1);
+} 
+
+.input-field input {
+    border: none;
+    width: 260px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+/* Forgot password */
+#forgot_password a {
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 12px;
+}
+
+#forgot_password a:hover {
+    color: var(--color1);
+}
+
+/* Login Button */
+#login_button {
+    border: none;
+    background: var(--color1);
+    padding: 7px;
+    border-radius: 3px;
+    color: var(--color2);
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#login_button:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
